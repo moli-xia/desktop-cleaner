@@ -2,4 +2,5 @@
 # 本项目主要使用Python标准库，无需额外依赖
 
 # 构建依赖（可选）
-pyinstaller>=5.13.2
+pyinstaller==5.13.2; python_version < '3.9'
+pyinstaller>=6,<7; python_version >= '3.9'

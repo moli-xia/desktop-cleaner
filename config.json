@@ -5,7 +5,7 @@
   ],
   "max_file_size_mb": 100,
   "include_folders_in_organize": false,
-  "include_folders_in_backup": false,
+  "include_folders_in_backup": true,
   "categories": {
     "📄 文档": {
       "extensions": [
@@ -16,10 +16,13 @@
         ".xls",
         ".xlsx",
         ".ppt",
-        ".pptx"
+        ".pptx",
+        ".md",
+        ".csv",
+        ".rtf",
+        ".odt"
       ],
-      "icon": "📄",
-      "color": "#3498db"
+      "icon": "📄"
     },
     "🖼️ 图片": {
       "extensions": [
@@ -29,10 +32,11 @@
         ".gif",
         ".bmp",
         ".svg",
-        ".ico"
+        ".ico",
+        ".webp",
+        ".heic"
       ],
-      "icon": "🖼️",
-      "color": "#e74c3c"
+      "icon": "🖼️"
     },
     "🎬 视频": {
       "extensions": [
@@ -44,8 +48,7 @@
         ".flv",
         ".webm"
       ],
-      "icon": "🎬",
-      "color": "#9b59b6"
+      "icon": "🎬"
     },
     "🎵 音频": {
       "extensions": [
@@ -54,10 +57,10 @@
         ".flac",
         ".aac",
         ".ogg",
-        ".wma"
+        ".wma",
+        ".m4a"
       ],
-      "icon": "🎵",
-      "color": "#f39c12"
+      "icon": "🎵"
     },
     "📦 压缩包": {
       "extensions": [
@@ -65,10 +68,10 @@
         ".rar",
         ".7z",
         ".tar",
-        ".gz"
+        ".gz",
+        ".tar.gz"
       ],
-      "icon": "📦",
-      "color": "#95a5a6"
+      "icon": "📦"
     },
     "💻 程序": {
       "extensions": [
@@ -77,13 +80,17 @@
         ".deb",
         ".dmg"
       ],
-      "icon": "💻",
-      "color": "#2ecc71"
+      "icon": "💻"
+    },
+    "📂 桌面文件夹": {
+      "extensions": [
+        "__FOLDER__"
+      ],
+      "icon": "📂"
     },
     "📁 其他": {
       "extensions": [],
-      "icon": "📁",
-      "color": "#34495e"
+      "icon": "📁"
     }
   }
 }
